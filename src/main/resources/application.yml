@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  main:
+    banner-mode: off
+
+logging:
+  pattern:
+    console: "%d{HH:mm:ss.SSS} %-5level %logger{24} - %msg%n"
+  level:
+    org.apache.tomcat: WARN
+    org.springframework.web: INFO
